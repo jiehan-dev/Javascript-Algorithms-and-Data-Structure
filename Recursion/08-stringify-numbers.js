@@ -15,4 +15,5 @@ function stringifyNumbers(obj) {
       newObj[key] = obj[key];
     }
   }
+  return newObj;
 }
